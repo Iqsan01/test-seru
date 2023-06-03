@@ -40,7 +40,7 @@ export const getVehicleModels = async (req, res) => {
 export const getVehicleModelById = async (req, res) => {
   try {
     const vehicleModel = await VehicleModel.findByPk(req.params.id, {
-      attributes: ["id", "name", "brand_id"],
+      attributes: ["id", "name", "type_id"],
     });
 
     if (vehicleModel) {

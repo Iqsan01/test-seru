@@ -425,7 +425,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Nissan\",\r\n    \"brand_id\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"name\" : \"Nissan\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -452,13 +452,13 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3MjE4NCwiZXhwIjoxNjg1Nzc1Nzg0fQ.Wk7WDQ4QX_AbcnyM7InNG-aWvTKQjzXtzYUPK-0aKz8",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Civic\",\r\n    \"brand_id\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"name\" : \"BMW\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -466,14 +466,14 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3001/vehicle-brands/6",
+							"raw": "localhost:3001/vehicle-brands/5",
 							"host": [
 								"localhost"
 							],
 							"port": "3001",
 							"path": [
 								"vehicle-brands",
-								"6"
+								"5"
 							]
 						}
 					},
@@ -486,7 +486,7 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3MjE4NCwiZXhwIjoxNjg1Nzc1Nzg0fQ.Wk7WDQ4QX_AbcnyM7InNG-aWvTKQjzXtzYUPK-0aKz8",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
@@ -570,13 +570,13 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3ODQyNCwiZXhwIjoxNjg1NzgyMDI0fQ.U_J4_xrDdEEvH02EgeSb_Zdus4DtDqY2hwQAqdn_R7g",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Nissan\",\r\n    \"brand_id\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Civic\",\r\n    \"type_id\": \"6\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -610,13 +610,13 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3MjE4NCwiZXhwIjoxNjg1Nzc1Nzg0fQ.Wk7WDQ4QX_AbcnyM7InNG-aWvTKQjzXtzYUPK-0aKz8",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Civic\",\r\n    \"brand_id\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"name\" : \"GT-R\",\r\n    \"type_id\": \"5\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -624,14 +624,14 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:3001/vehicle-models/6",
+							"raw": "localhost:3001/vehicle-models/5",
 							"host": [
 								"localhost"
 							],
 							"port": "3001",
 							"path": [
 								"vehicle-models",
-								"6"
+								"5"
 							]
 						}
 					},
@@ -728,13 +728,13 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3ODQyNCwiZXhwIjoxNjg1NzgyMDI0fQ.U_J4_xrDdEEvH02EgeSb_Zdus4DtDqY2hwQAqdn_R7g",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Nissan\",\r\n    \"brand_id\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"year\": \"2025\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -761,13 +761,13 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3MjE4NCwiZXhwIjoxNjg1Nzc1Nzg0fQ.Wk7WDQ4QX_AbcnyM7InNG-aWvTKQjzXtzYUPK-0aKz8",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Civic\",\r\n    \"brand_id\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"year\" : \"2025\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -795,7 +795,7 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3MjE4NCwiZXhwIjoxNjg1Nzc1Nzg0fQ.Wk7WDQ4QX_AbcnyM7InNG-aWvTKQjzXtzYUPK-0aKz8",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
@@ -879,13 +879,13 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3ODQyNCwiZXhwIjoxNjg1NzgyMDI0fQ.U_J4_xrDdEEvH02EgeSb_Zdus4DtDqY2hwQAqdn_R7g",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Nissan\",\r\n    \"brand_id\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"year_id\": 5,\r\n    \"model_id\": 5\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -912,13 +912,13 @@
 						"header": [
 							{
 								"key": "authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc3MjE4NCwiZXhwIjoxNjg1Nzc1Nzg0fQ.Wk7WDQ4QX_AbcnyM7InNG-aWvTKQjzXtzYUPK-0aKz8",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY4NTc4MTA3NywiZXhwIjoxNjg1Nzg0Njc3fQ.mZGZU0vLVe_mIIZXLFAtKik_Lihjf6j1OIiV0QcNDZU",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Civic\",\r\n    \"brand_id\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"year_id\": 5,\r\n    \"model_id\": 5\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

@@ -21,16 +21,16 @@ export const getVehicleBrands = async (req, res) => {
     const offset = (page - 1) * limit;
 
     const { count, rows: vehicleBrands } = await VehicleBrand.findAndCountAll({
-      attributes: ['id', 'name'],
+      attributes: ["id", "name"],
       limit: +limit,
       offset: +offset,
     });
     res.json({
-        total: count,
-        limit: +limit,
-        skip: offset,
-        data: vehicleBrands,
-      });
+      total: count,
+      limit: +limit,
+      skip: offset,
+      data: vehicleBrands,
+    });
   } catch (error) {
     res.status(500).json({ error: "Internal server error" });
   }
@@ -58,7 +58,7 @@ export const updateVehicleBrand = async (req, res) => {
     const vehicleBrand = await VehicleBrand.findByPk(req.params.id);
     if (vehicleBrand) {
       vehicleBrand.name = name;
-      await vehicleType.save();
+      await vehicleBrand.save();
 
       res
         .status(200)
